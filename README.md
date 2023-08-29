@@ -6,7 +6,8 @@ Edar is a tool designed to assist educational designers in creating, monitoring,
 
 ## Features
 
-- **Design Support**: Helps you sketch out the structure of educational courses or programs.
+- **Design Support**: Helps you sketch out the structure of educational architecture.
+- **Flexible Export**: The architecture can be exported to different platforms for the teacher or school to use.
 - **Effectiveness Tracking**: Monitors the effectiveness of your educational designs.
 - **Efficiency Optimization**: Suggests changes to make your designs more efficient.
 - **User-Friendly Interface**: Allows for a more intuitive design experience.
