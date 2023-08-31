@@ -19,8 +19,6 @@ Edar is a tool designed to assist educational designers in creating, monitoring,
 
 ## Deliverables 
 
-## Products/Deliverables for an Educational Architect
-
 - **Assessment**
   - *Description*: A comprehensive analysis that outlines the educational needs, goals, and constraints. It often includes data collection, stakeholder interviews, and surveys.
   - *Audience*: Stakeholders such as educators, administrators, and policymakers.
