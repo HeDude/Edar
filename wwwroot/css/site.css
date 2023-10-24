@@ -16,3 +16,64 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+input {
+    width: 300px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+#sliderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sliderHeading, #sliderFooter {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Slider styles */
+#freedomSlider {
+    -webkit-appearance: slider-vertical;
+    width: 16px !important; /* Add the !important flag */
+    height: 200px;
+    margin: 0 10px;
+    position: relative;
+    background: transparent;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+    #freedomSlider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 20px;
+        height: 20px;
+        background: grey;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+
+    #freedomSlider::-webkit-slider-runnable-track {
+        width: 16px;
+        height: 100%;
+        cursor: pointer;
+        background: var(--track-color, red);
+        border-radius: 4px; /* added to round the corners */
+    }
+
+#codeScreen {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 75%;
+    height: auto;
+    overflow-y: auto;
+    font-family: monospace;
+}
